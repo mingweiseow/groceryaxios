@@ -8,6 +8,16 @@
             <PSIIndex></PSIIndex>
         
         </div>
+
+        <div id="chart">
+            <CallAPI></CallAPI>
+        
+        </div>
+
+         <div id="chart">
+            <CallAPI2></CallAPI2>
+        
+        </div>
         
     </div>
 </template>
@@ -15,10 +25,12 @@
 <script>
 import axiosExample from '../axiosExample.js'
 import PSIIndex from '../PSIIndex.js'
+import CallAPI from '../linechartCovid.js'
+import CallAPI2 from '../linechartTransport.js'
 
 export default {
     components:{
-        axiosExample,PSIIndex
+        axiosExample,PSIIndex,CallAPI, CallAPI2
     }
     
 }
