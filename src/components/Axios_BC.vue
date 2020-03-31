@@ -14,10 +14,10 @@
         
         </div>
 
-         <div id="chart">
+        <!--<div id="chart">
             <CallAPI2></CallAPI2>
         
-        </div>
+        </div>-->
         
     </div>
 </template>
@@ -26,11 +26,11 @@
 import axiosExample from '../axiosExample.js'
 import PSIIndex from '../PSIIndex.js'
 import CallAPI from '../linechartCovid.js'
-import CallAPI2 from '../linechartTransport.js'
+//import CallAPI2 from '../linechartTransport.js'
 
 export default {
     components:{
-        axiosExample,PSIIndex,CallAPI, CallAPI2
+        axiosExample,PSIIndex,CallAPI, //CallAPI2
     }
     
 }
